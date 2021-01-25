@@ -8,7 +8,8 @@
 
 .box{
   background-color: white;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -64,20 +65,102 @@ div.text-center {
   padding-top: 10px;
 }
 
-@media (max-width: 480px) {
-  .navbar-brand {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0%;
-  }
-  /* nav.navbar {
-      background-color: #0BADA6 !important;
-      padding-bottom: 20px;
-  } */
-  button { 
-    background: white !important
-  }
+  /*---Media Queries --*/
+@media (max-width: 992px) {
 
-  .viz-large img {
-      width: 100%;
+  .latitude {
+    color: white;
+    font-size: 15px;
+    background-color: #0BADA6;
+    padding: 5px;
+    margin-left: 15px;
+    }
+    }
+
+@media (max-width: 768px) {
+  
+  .dropdown-item{
+      font-size: 15px;
   }
+  
+  .latitude {
+    color: white;
+    font-size: 15px;
+    background-color: #0BADA6;
+    padding: 5px;
+    margin-left: 15px;
+    }
+
+    h1{
+      padding: 8px;
+      font-size: 25px;
+    }
+    h2{
+      padding: 6px;
+      font-size: 16px;
+    }
+  
+    h3{
+      font-size: 18px;
+    }
+  
+    h6{
+      font-size: 10px;
+    }
+  
+    p{
+      padding: 8px;
+      margin-top: 8px;
+      font-size: 14px; 
+  }
+  
+  .th{
+      font-size: 14px;
+  }
+  table{
+      font-size: 12px;
+  }
+    }
+    
+@media (max-width: 576px) {
+  
+    .dropdown-item{
+        font-size: 10px;
+    }
+
+    .latitude {
+    color: white;
+    font-size: 15px;
+    background-color: #0BADA6;
+    padding: 5px;
+    margin-left: 15px;
+    }
+    
+    h1{
+      padding: 6px;
+      font-size: 20px;
+    }
+    h2{
+      padding: 4px;
+      font-size: 15px;
+    }
+    h3{
+      font-size: 14px;
+    }
+  
+    h6{
+      font-size: 8px;
+    }
+    p{
+      padding: 6px;
+      margin-top: 6px;
+      font-size: 12px; 
+  }
+  
+  .th{
+      font-size: 12px;
+  }
+  table{
+      font-size: 10px;
+  }
+}
